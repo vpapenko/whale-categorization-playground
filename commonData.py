@@ -4,10 +4,10 @@ class commonData:
     imageSizes = {modes[0]:100, modes[1]:500, modes[2]:1000}
     currentImageSize = -1
     newWhaleName = 'new_whale'
-    dataPath = 'data/'
+    dataPath = './data/'
     trainPath = dataPath + '/train.csv'
     trainImagesPath = dataPath + 'train/'
-    convertedDataPath = './'
+    convertedDataPath = dataPath
     convertedImagePath = ''
     convertedImageDataPath = ''
     typesMappingPath = convertedDataPath + 'typesMapping.csv'

@@ -82,7 +82,7 @@ def createData(saveResizedImage):
                 print(str(line) + ' of ' + str(rowCount))
 
                 saveCounter += 1
-                if saveCounter == 10:
+                if saveCounter == 50:
                     print('save')
                     fo.saveToFile(cd.convertedImageDataPath, data, True)
                     saveCounter = 0
